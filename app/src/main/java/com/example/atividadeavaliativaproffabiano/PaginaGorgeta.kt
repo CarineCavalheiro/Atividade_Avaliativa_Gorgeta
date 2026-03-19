@@ -43,7 +43,7 @@ fun PaginaGorjeta(viewModel: TipViewModel) {
 
         // Linha do Custom %
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Custom %", modifier = Modifier.width(80.dp), fontSize = 18.sp)
+            Text("Custom %", modifier = Modifier.width(100.dp), fontSize = 18.sp)
             Slider(
                 value = state.customPercent,
                 onValueChange = { viewModel.updatePercent(it) },
